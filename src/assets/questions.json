@@ -1,0 +1,40 @@
+{
+  "questions": [
+    {
+      "category": "html/css",
+      "question": "What is margin?",
+      "answers": [
+        "The space around elements",
+        "The space around the content and border",
+        "The space that creates a border after the content",
+        "The Content of the element"
+      ],
+      "correct": "The space around elements",
+      "id": 1
+    },
+    {
+      "category": "html/css",
+      "question": "What is padding?",
+      "answers": [
+        "The space around elements",
+        "The space around the content and border",
+        "The space that creates a border after the content",
+        "The Content of the element"
+      ],
+      "correct": "The space around the content and border",
+      "id": 2
+    },
+    {
+      "category": "html/css",
+      "question": "How can we change the background color of an element?",
+      "answers": [
+        "background-color",
+        "color",
+        "background-size",
+        "element-color"
+      ],
+      "correct": "background-color",
+      "id": 3
+    }
+  ]
+}
