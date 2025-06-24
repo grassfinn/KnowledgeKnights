@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Socket Quiz App Rpg</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="icon" href="data:,">
+
+</head>
+
+<body>
+  <!-- HP Bars -->
+  <main>
+    <section class="hp-bars">
+      <div class="boss">
+        <label for="boss-hp">Boss HP</label>
+        <meter id="boss-hp" value="100" low="45" max="100">100%</meter>
+          <h1>Boss Hits: <span id="b-hit"></span></h1>
+      </div>
+
+      <div class="player">
+        <label for="player-hp">Player HP</label>
+        <meter id="player-hp" value="100" low="45" max="100">100%</meter>
+          <h1>Player Hits: <span id="p-hit"></span></h1>
+      </div>
+    </section>
+
+    <div class="bossAvatar"></div>
+    <p id="ready">Press me to get Ready</p>
+
+    <section id="quiz-zone">
+      <h1 id="question">Question</h1>
+      <div id="answer-choices">
+        <button>Answer 1</button>
+        <button>Answer 2</button>
+        <button>Answer 3</button>
+        <button>Answer 4</button>
+      </div>
+    </section>
+    <!-- <p id="start">Start</p> -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/scripts/app.js"></script>
+  </main>
+</body>
+
+</html>
